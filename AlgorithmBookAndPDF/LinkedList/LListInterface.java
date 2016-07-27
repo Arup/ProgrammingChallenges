@@ -1,17 +1,17 @@
 package LinkedList;
-
+import  LinkedList.myImpl.Node;
 
 public interface LListInterface {
 
 	public <T> boolean add(T e);
 
-	public <T> void add(int index, T element);
+	public <T> boolean add(int index, T element);
 
 	public void clear();
 
 	public <T> boolean contains(T element) ;
 
-	public <T> T getNodeAtIndex(int index);
+	public Node getNodeAtIndex(int index);
 
 	public <T> int indexOf(T element);
 

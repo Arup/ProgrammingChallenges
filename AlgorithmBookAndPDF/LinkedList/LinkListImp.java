@@ -23,9 +23,9 @@ public class LinkListImp<T> implements LListInterface {
 		return (size()==0);
 	}
 
-	public <T> void add(int index, T element) {
+	public <T> boolean add(int index, T element) {
 		// TODO Auto-generated method stub
-
+		return false;
 	}
 
 
@@ -52,7 +52,7 @@ public class LinkListImp<T> implements LListInterface {
 	}
 
 	@Override
-	public <T> T getNodeAtIndex(int index) {
+	public LinkedList.myImpl.Node getNodeAtIndex(int index) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -1,0 +1,24 @@
+Implement Single LL [add,remove,contains,length,replace]
+Do the same with Double LL
+
+Do it with Iterators
+
+
+
+Merge two sorted singly linked lists into one sorted singly linked list. Allocate no extra node.
+
+
+Given a linked list which in addition to the 'next' pointer has another valid pointer to a random node in the string, write a function to copy the linked list.
+
+Input: two linked lists that have some duplicate nodes 
+the list node contains a student's info: name, telephone, address. duplication exist if the same name and phone number appears in two different lists or repeat more than ones in the same list. 
+Output: one lists that contains unique elements, duplications should be removed.
+
+Write program to print the value of the second last node in a single linked list and write the test cases (code to test) for the same .
+
+Delete the repeated elements in a singly linked list in O(n) time complexity without using extra space. Linked list contains elements in unsorted order 
+P.S. - Sorting is not allowed
+
+Delete the repeated elements in a singly linked list in O(n) time complexity without using extra space. Linked list contains elements in unsorted order 
+P.S. - Sorting is not allowed
+

@@ -3,18 +3,16 @@ package LinkedList.myImpl;
 public class SinglyLinkList {
 	
 	private Node firstNode;
-	private T element;
 	private int size;
-	
-	public SinglyLinkList(Node firstNode,T ele){
-		this.firstNode=firstNode;
-		this.element=ele;
-	}
-
 	
 	public SinglyLinkList(Node firstNode){
 		this.firstNode=firstNode;
-		this.element=null;
+	}
+
+	
+	public SinglyLinkList(){
+		this.firstNode=null;
+		this.firstNode.setNext(null);
 	}
 	
 	private Node getNodeAt(int givenPosition){		
@@ -33,7 +31,7 @@ public class SinglyLinkList {
 		return size;
 	}
 	
-	public boolean add(T newEntry){
+	public boolean add(Node newEntry){
 		Node newNode=new Node(newEntry);
 		
 		if(isEmpty())
@@ -48,7 +46,7 @@ public class SinglyLinkList {
 		
 	}
 	
-	public boolean add(int position,T newEntry){
+	public boolean add(int position,Node newEntry){
 		boolean isadded=true;
 		
 		if((position>=1)&&(position<=size+1)){
